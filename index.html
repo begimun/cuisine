@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The FooD</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <div class="header__logo header__block--left">
+            <a href="index.html" class="logo__link">
+              <img src="./images/logo.svg" alt="logo" />
+              <span class="logo__name">FooD</span>
+            </a>
+          </div>
+          <div class="header__block--right">
+            <nav class="header__nav nav">
+              <ul class="nav__menu">
+                <li class="nav__item"><a href="" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="" class="nav__link nav__dropdown">Services</a></li>
+                <li class="nav__item"><a href="" class="nav__link">Categories</a></li>
+                <li class="nav__item"><a href="" class="nav__link nav__dropdown">Pages</a></li>
+                <li class="nav__item"><a href="" class="nav__link">Blog</a></li>
+                <li class="nav__item"><a href="" class="nav__link">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="flex system-elements">
+              <div class="search">
+                <img src="./images/search.svg" alt="search" />
+              </div>
+              <div class="cart">
+                <img src="./images/cart.svg" alt="cart" />
+                <span class="cart__counter">0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="overlay">
+      <div class="over-1"></div>
+      <div class="over-2"></div>
+      <div class="over-3"></div>
+    </div>
+    <main>
+      <section class="hero">
+        <div class="container relative">
+          <div class="for-animation" id="scene">
+            <img data-depth="-0.1" class="hero__mint" src="./images/mint.png" alt="" />
+            <img data-depth="0.3" class="hero__mint--small" src="./images/small-mint.png" alt="" />
+            <img data-depth="-1" class="hero__pepper" src="./images/pepper.png" alt="" />
+          </div>
+          <div class="hero__row">
+            <div class="col-5">
+              <div class="hero__item">
+                <h1 class="hero__title">
+                  Free Home <span class="orange">Delivery Within</span> an Hour
+                </h1>
+                <p class="hero__description">
+                  There are many variations of passages of Lorem Ipsum available, but the majority
+                  have suffered alteration in some form, by injected humour, or randomised words
+                  which don't look even slightly believable.
+                </p>
+                <form class="hero__form">
+                  <button class="btn btn-orange hero__btn">Order Now</button>
+                  <label for="search" class="hero__label">
+                    <input id="search" type="text" placeholder="Enter food name" />
+                  </label>
+                  <button class="btn btn-orange hero__search">Search</button>
+                </form>
+              </div>
+            </div>
+            <div class="col-7">
+              <div class="hero__item text-right">
+                <img class="hero__courier" src="./images/hero.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="categories">
+        <div class="container">
+          <div class="categories__header">
+            <h2 class="categories__title">Featured Categories</h2>
+            <p class="categories__description">
+              There are many variations of passages of Lorem Ipsum available, but the majority have
+              suffered alteration in some form, by injected humour, or randomised words which.
+            </p>
+          </div>
+          <div class="row categories__row">
+            <div class="col-4">
+              <div class="categories__item">
+                <img src="./images/categories-1.png" alt="" />
+                <div class="categories__link is-backward">
+                  <span class="categories__type">Sandwich</span>
+                  <p class="categories__text">
+                    Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные
+                    тексты. Букв буквенных вопроса подзаголовок он всеми. Живет имеет взобравшись
+                    толку!
+                  </p>
+                  <span class="arrow categories__arrow is-backward"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="29.122"
+                      height="25.482"
+                      viewBox="0 0 29.122 25.482"
+                    >
+                      <path
+                        id="arrow-left"
+                        d="M19.094,5.533a1.82,1.82,0,0,0,0,2.574l7.814,7.814H5.82a1.82,1.82,0,1,0,0,3.64H26.908l-7.814,7.814a1.82,1.82,0,0,0,2.574,2.574L32.589,19.028a1.82,1.82,0,0,0,0-2.574L21.668,5.533A1.82,1.82,0,0,0,19.094,5.533Z"
+                        transform="translate(-4 -5)"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <a class="categories__checkout" href="atai.html">Check out</a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="categories__item">
+                <img src="./images/categories-2.png" alt="" />
+                <div href="" class="categories__link is-backward">
+                  <span class="categories__type">Fast Food</span>
+                  <p class="categories__text">
+                    Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные
+                    тексты. Букв буквенных вопроса подзаголовок он всеми. Живет имеет взобравшись
+                    толку!
+                  </p>
+                  <span class="arrow categories__arrow is-backward"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="29.122"
+                      height="25.482"
+                      viewBox="0 0 29.122 25.482"
+                    >
+                      <path
+                        id="arrow-left"
+                        d="M19.094,5.533a1.82,1.82,0,0,0,0,2.574l7.814,7.814H5.82a1.82,1.82,0,1,0,0,3.64H26.908l-7.814,7.814a1.82,1.82,0,0,0,2.574,2.574L32.589,19.028a1.82,1.82,0,0,0,0-2.574L21.668,5.533A1.82,1.82,0,0,0,19.094,5.533Z"
+                        transform="translate(-4 -5)"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <a class="categories__checkout" href="atai.html">Check out</a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="categories__item">
+                <img src="./images/categories-3.png" alt="" />
+                <div href="" class="categories__link is-backward">
+                  <span class="categories__type">Fast Food</span>
+                  <p class="categories__text">
+                    Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные
+                    тексты. Букв буквенных вопроса подзаголовок он всеми. Живет имеет взобравшись
+                    толку!
+                  </p>
+                  <span class="arrow categories__arrow is-backward"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="29.122"
+                      height="25.482"
+                      viewBox="0 0 29.122 25.482"
+                    >
+                      <path
+                        id="arrow-left"
+                        d="M19.094,5.533a1.82,1.82,0,0,0,0,2.574l7.814,7.814H5.82a1.82,1.82,0,1,0,0,3.64H26.908l-7.814,7.814a1.82,1.82,0,0,0,2.574,2.574L32.589,19.028a1.82,1.82,0,0,0,0-2.574L21.668,5.533A1.82,1.82,0,0,0,19.094,5.533Z"
+                        transform="translate(-4 -5)"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <a class="categories__checkout" href="atai.html">Check out</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="container">
+          <div class="services__header section__header">
+            <h3 class="section__title">What Our Spiz Services</h3>
+            <p class="section__description">
+              There are many variations of passages of Lorem Ipsum available, but the majority have
+              suffered alteration in some form, by injected humour, or randomised words which don't
+              look even slightly bel
+            </p>
+          </div>
+          <div class="row services__row">
+            <div class="col-4">
+              <div class="services__item">
+                <img src="./images/services__img1.svg" alt="" class="services__icon" />
+                <h5 class="services__title">Discount Voucher</h5>
+                <p class="services__description">
+                  There are many variations of passages of Lorem Ipsum available, but the majority
+                  have suffered alteration in some form, by injected humour, or randomised words
+                  which don't look even slightly bel
+                </p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="services__item">
+                <img src="./images/services__img2.svg" alt="" class="services__icon" />
+                <h5 class="services__title">Fresh & Healthy Food</h5>
+                <p class="services__description">
+                  There are many variations of passages of Lorem Ipsum available, but the majority
+                  have suffered alteration in some form, by injected humour, or randomised words
+                  which don't look even slightly bel
+                </p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="services__item">
+                <img src="./images/services__img3.svg" alt="" class="services__icon" />
+                <h5 class="services__title">Fast Home Delivery</h5>
+                <p class="services__description">
+                  There are many variations of passages of Lorem Ipsum available, but the majority
+                  have suffered alteration in some form, by injected humour, or randomised words
+                  which don't look even slightly bel
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sort">
+        <div class="container">
+          <div class="sort__header section__header">
+            <h3 class="section__title">Featured Categories</h3>
+            <p class="section__description">
+              There are many variations of passages of Lorem Ipsum available, but the majority have
+              suffered alteration in some form, by injected humour, or randomized.
+            </p>
+          </div>
+          <ul class="sort__filter row filter">
+            <li class="filter__items filter__items--active">All</li>
+            <li class="filter__items">Salad</li>
+            <li class="filter__items">Fast Food</li>
+            <li class="filter__items">Platters</li>
+            <li class="filter__items">Dessert</li>
+          </ul>
+          <div class="row sort__row">
+            <div class="col-3">
+              <div class="sort__item">
+                <img class="sort__picture" src="./images/sort-item-1.png" alt="picture" />
+                <div class="sort__info">
+                  <div class="row space-between align-center">
+                    <h5 class="sort__title">Dark Chocolate</h5>
+                    <span class="sort__price">$30</span>
+                  </div>
+                  <p class="sort__description">
+                    There are many variations of passages of Lorem Ipsum available.
+                  </p>
+                  <div class="row">
+                    <img class="sort__rating" src="./images/rating.svg" alt="stars" />
+                    <button class="sort__add"><span></span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/TweenMax.min.js"></script>
+    <script src="./js/parallax.min.js"></script>
+    <script src="./js/clicks.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

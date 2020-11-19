@@ -1,0 +1,45 @@
+.services {
+	padding-top: 115px;
+	text-align: center;
+	&__row {
+		margin: -18px;
+	}
+	&__item {
+		transition: 0.3s;
+		cursor: pointer;
+		margin: 18px;
+		text-align: center;
+		background-color: white;
+		border-radius: 30px;
+		padding: 50px 34px;
+		box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+	}
+	img {
+		padding: 10px 10px;
+		border: 2px solid $color-darkGray;
+		border-radius: 20px;
+		width: 130px;
+		height: 95px;
+	}
+	&__title {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 30px;
+	}
+	&__description {
+		font-size: 16px;
+		color: $color-darkGray;
+	}
+	&__item:hover {
+		margin-top: -5px;
+		background-color: $color-orange;
+		color: white;
+		box-shadow: 0 8px 14px 0 $color-orange;
+		p {
+			color: white;
+		}
+		img {
+			border-color: white;
+		}
+	}
+}
